@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:unit_number",
  "creation": "2026-04-29 21:25:39.061464",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -19,7 +20,8 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Unit Number",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "property",
@@ -65,10 +67,11 @@
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-29 21:37:18.282645",
+ "modified": "2026-05-01 12:36:59.203032",
  "modified_by": "Administrator",
  "module": "Property Management",
  "name": "Property Unit",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
